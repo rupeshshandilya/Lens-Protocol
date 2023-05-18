@@ -1,4 +1,3 @@
-import  MyProfile  from "../components/activeProfile";
 import Authentication from "../components/authentication";
 
 const Home = () =>{
@@ -6,7 +5,6 @@ const Home = () =>{
     <>
     Home
     <Authentication/>
-    <MyProfile/>
     </>
   );
 };
