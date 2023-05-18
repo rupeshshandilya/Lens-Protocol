@@ -2,7 +2,7 @@ import { useWalletLogin } from '@lens-protocol/react-web';
 import { useAccount, useConnect, useDisconnect } from 'wagmi';
 import { InjectedConnector } from 'wagmi/connectors/injected';
 
-function LoginButton() {
+export function LoginButton() {
   const { execute: login, error: loginError, isPending: isLoginPending } = useWalletLogin();
 
   const { isConnected } = useAccount();
@@ -32,5 +32,3 @@ function LoginButton() {
     </div>
   );
 }
-
-export default LoginButton;

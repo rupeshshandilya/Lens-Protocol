@@ -1,5 +1,5 @@
 import { useActiveWallet } from "@lens-protocol/react-web";
-import LoginButton  from "./signin";
+import {LoginButton}  from "./signin";
 import LogoutButton from "./signout";
 
 function Authentication() {
